@@ -22,7 +22,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contacts" asp-action="Index">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -36,8 +36,12 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - AddressBookMVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col justify-content-start"> &copy; 2021 - AddressBookMVC </div>
+                <div class="col d-flex align-items-center justify-content-center"><img src="~/Img/corgiLogo.svg" class="d-inline-block" /></div>
+                <div class="col d-flex align-items-end justify-content-end"><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
