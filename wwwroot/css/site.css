@@ -1,38 +1,65 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.navbarCustom {
+    background-color: crimson;
 }
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'Fascinate', cursive;
+}
+
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: crimson;
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #3a9fcc;
+    border-color: #1861ac;
 }
 
+a.nav-link {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.3rem;
+}
+
+/*Body Fonts*/
+.header-text {
+    font-family: 'Fascinate', cursive;
+    color: crimson;
+}
+
+.body-text {
+    font-family: 'Gochi Hand', cursive;
+}
+
+/*Custom Button*/
+.myBtn {
+    font-family: 'Fascinate', cursive;
+    color: black;
+    background-color: crimson;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .border-top {
@@ -63,9 +90,10 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    font-family: 'Gochi Hand', cursive;
 }

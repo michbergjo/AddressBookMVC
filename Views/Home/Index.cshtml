@@ -2,7 +2,41 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- HEADER -->
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>This is a simple address book application to demonstrate CRUD functionally</p>
+    <h1 class="display-4 header-text">Welcome</h1>
+    <h5 class="body-text">This is a simple address book application to demonstrate CRUD functionally</h5>
 </div>
+
+<!-- MAIN SECTION  -->
+<main class="flex-shrink-0">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
+            <div class="col order-last order-lg-first pt-lg-5">
+                <h1 class="display-5 header-text lh-1 mb-3 mt-5">Address Book: An MVC Coding Project</h1>
+                <h4 class="body-text">
+                    An application that creates a database of addresses.
+                </h4>
+                <p class="body-text">
+                    This address book uses CRUD functionality to create, edit, delete, and view addresses. 
+                </p>
+                <ul class="fa-ul pt-2 checklist">
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS and Bootstrap Layout</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>C# Fundamentals</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>.NET Core 5 Fundamentals</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>PostgreSQL Database</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CRUD Functionality</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>MVC Architecture</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Basic Image Services</li>
+                </ul>
+                <div>
+                    <a type="button" class="btn myBtn btn-large px-4 me-md-4" asp-area="" asp-controller="Contacts" asp-action="Index">CHECK IT OUT!</a>
+                </div>
+
+            </div>
+            <div class="col pt-5 pt-md-0">
+                <img src="~/Img/AdrressBookMVC.svg" class="img-fluid center-block d-block mx-auto" alt="fizz buzz logo" width="500" height="700">
+            </div>
+        </div>
+    </div>
+</main>
